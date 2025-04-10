@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: Poppins, sans-serif;
+}
+
+.btn-gradient-primary {
+  background: linear-gradient(to right, #000080, #4169e1, #000080);
+  border-color: #4169e1;
+}
+.btn-gradient-secondary {
+  background: transparent;
+  border-color: #4169e1;
+}
