@@ -1,8 +1,7 @@
 import { icons, offeringPebbles } from "@/constants";
-import React from "react";
 import { Button } from "../button";
-import SectionTitle from "../sections-title";
 import SectionSubtitle from "../section-subtitle";
+import SectionTitle from "../sections-title";
 
 export function Offerings() {
   return (

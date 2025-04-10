@@ -1,7 +1,6 @@
-import React from "react";
-import SectionTitle from "../sections-title";
-import SectionSubtitle from "../section-subtitle";
 import { images } from "@/constants";
+import SectionSubtitle from "../section-subtitle";
+import SectionTitle from "../sections-title";
 import ServiceCard from "./service-card";
 
 export function Service() {

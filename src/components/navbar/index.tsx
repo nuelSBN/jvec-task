@@ -1,48 +1,5 @@
-// import { icons, navItems } from "@/constants";
-// import React from "react";
-
-// export function Navbar() {
-//   return (
-//     <nav className="flex gap-4">
-//       {navItems.map((item, i) => (
-//         <div key={i} className="relative group">
-//           <a
-//             href={item.url}
-//             className={`px-4 py-2 capitalize ${
-//               item.active ? "text-white font-bold" : "text-[#CFCFCF]"
-//             }`}
-//           >
-//             {item.name}
-//             {item.hasSubRoute && (
-//               <img
-//                 src={icons.dropdownIcon}
-//                 alt="down arrow"
-//                 className="inline"
-//               />
-//             )}
-//           </a>
-
-//           {item.hasSubRoute && item.subItems && (
-//             <div className="absolute left-0 mt-2 w-48 bg-white shadow-md rounded-md opacity-0 group-hover:opacity-100 transition-opacity z-10">
-//               {item.subItems.map((subItem, subIndex) => (
-//                 <a
-//                   key={subIndex}
-//                   href={subItem.url}
-//                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
-//                 >
-//                   {subItem.name}
-//                 </a>
-//               ))}
-//             </div>
-//           )}
-//         </div>
-//       ))}
-//     </nav>
-//   );
-// }
-
 import { icons, navItems } from "@/constants";
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface NavbarProps {
   direction?: "row" | "column";

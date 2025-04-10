@@ -1,7 +1,6 @@
-import React from "react";
-import SectionTitle from "../sections-title";
-import SectionSubtitle from "../section-subtitle";
 import { companySlides } from "@/constants";
+import SectionSubtitle from "../section-subtitle";
+import SectionTitle from "../sections-title";
 
 export function TrustUs() {
   return (

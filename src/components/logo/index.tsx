@@ -1,5 +1,4 @@
 import { images } from "@/constants";
-import React from "react";
 
 export function Logo() {
   return (

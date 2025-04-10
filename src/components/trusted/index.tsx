@@ -1,5 +1,4 @@
 import { images } from "@/constants";
-import React from "react";
 import SectionSubtitle from "../section-subtitle";
 import SectionTitle from "../sections-title";
 

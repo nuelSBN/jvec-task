@@ -1,8 +1,7 @@
 import { visionMissionData } from "@/constants";
-import React from "react";
-import { VisionMissionCard } from "./vision-card";
-import SectionTitle from "../sections-title";
 import SectionSubtitle from "../section-subtitle";
+import SectionTitle from "../sections-title";
+import { VisionMissionCard } from "./vision-card";
 
 export function Vision() {
   return (

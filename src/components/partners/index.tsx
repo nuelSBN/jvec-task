@@ -1,10 +1,8 @@
-import React from "react";
-import SectionTitle from "../sections-title";
-import SectionSubtitle from "../section-subtitle";
-import { partnersSlides } from "@/constants";
+import { images, partnersSlides } from "@/constants";
 import { motion } from "framer-motion";
 import { Button } from "../button";
-import { images } from "@/constants";
+import SectionSubtitle from "../section-subtitle";
+import SectionTitle from "../sections-title";
 
 export function Partners() {
   return (

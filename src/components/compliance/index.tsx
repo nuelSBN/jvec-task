@@ -1,8 +1,7 @@
-import React from "react";
-import SectionTitle from "../sections-title";
-import SectionSubtitle from "../section-subtitle";
-import { Button } from "../button";
 import { images } from "@/constants";
+import { Button } from "../button";
+import SectionSubtitle from "../section-subtitle";
+import SectionTitle from "../sections-title";
 
 export function Compliance() {
   return (
